@@ -7,9 +7,96 @@
 body {
     font-family: 'Lato', sans-serif;
     color: #3a3a3a;
+    font-weight: 300;
 }
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+    color: #252525;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+]
 /* logo and navigaation links */
 #logo {
     float: left;
-    line-height: 75;
+    font-size: 280%;
+    
+}
+#menu {
+    display: inline;
+    font-size: 110%;
+    letter-spacing: 4px;
+    
+}
+#logo, #menu {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    
+}
+#menu a {
+    text-decoration: none;
+    border-bottom: 1px solid #3a3a3a;
+    color: inherit;
+}
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    color: #3a3a3a;
+    font-weight: 300;
+}
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+    color: #252525;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+]
+/* logo and navigaation links */
+#logo {
+    float: left;
+    font-size: 280%;
+    
+}
+#menu {
+    display: inline;
+    font-size: 110%;
+    letter-spacing: 4px;
+    
+}
+#logo, #menu {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    
+}
+#menu a {
+    text-decoration: none;
+    border-bottom: 1px solid #3a3a3a;
+    color: inherit;
+}
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
